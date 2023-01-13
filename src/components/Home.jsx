@@ -8,11 +8,11 @@ const Home = () => {
     <div
     name="home"
     id="home"
-    className="h-screen w-full bg-GreenLt pt-40"
+    className="h-screen w-full bg-white"
     >
-    <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+    <div className="max-w-screen-lg mx-auto flex gap-4 flex-col items-center justify-center h-full px-4 md:flex-row">
       <div className="flex flex-col justify-center">
-        <h2 className="text-5xl md:text-7xl font-bold text-GreenDk">
+        <h2 className="text-5xl md:text-7xl font-bold text-black">
           Morgan Goodfellow
         </h2>
         <p className="text-gray-500 py-4 max-w-md">
@@ -23,7 +23,7 @@ const Home = () => {
             to="about"
             smooth
             duration={500}
-            className="group text-white w-fit px-6 py-3 my-3 flex items-center rounded-md bg-gradient-to-r from-GreenMd to-GreenDk cursor-pointer"
+            className="group text-white w-fit px-6 py-3 my-3 flex items-center rounded-md bg-gradient-to-r from-blue-500 to-blue-600 cursor-pointer"
           >
             About Me
             <span className="group-hover:rotate-90 duration-300">
@@ -36,10 +36,10 @@ const Home = () => {
         <img
           src={me}  
           alt="my profile"
-          className="rounded-full mx-auto w-2/3 md:w-3/4"
+          className="rounded-full mx-auto w-2/3 md:w-3/4 max-md"
         />
       </div>
-    </div>
+  </div>
   </div>
   );
 };
