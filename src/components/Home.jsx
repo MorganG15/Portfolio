@@ -2,6 +2,7 @@ import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import me from '../assets/me2.jpeg';
 import { Link } from "react-scroll"; 
+import Resume from '../assets/Morgan Goodfellow Resume Jan 2023.pdf'
 
 const Home = () => {
   return (
@@ -17,9 +18,6 @@ const Home = () => {
         <p className="text-gray-500 py-4 max-w-md">
             I am a coop student at the University of Waterloo, studying Computational Mathematics and Computer Science. I am interested in UX design and software development.    
         </p>
-        <a href="/Morgan Goodfellow Resume Jan 2023.pdf" download className='text-blue-500 underline'>
-          Resume
-        </a>
         <div className="flex flex-row items-center gap-4">
           <Link
             to="about"
@@ -32,7 +30,7 @@ const Home = () => {
               <HiArrowNarrowRight size={25} className="ml-3" />
             </span>
           </Link>
-          <a href="/Morgan Goodfellow Resume Jan 2023.pdf" download className='text-gray-500 border-2 border-blue-500 group w-fit px-6 py-3 my-2 flex items-center rounded-md bg-white cursor-pointer'>
+          <a href={Resume} target="_blank" className='text-gray-500 border-2 border-blue-500 group w-fit px-6 py-3 my-2 flex items-center rounded-md bg-white cursor-pointer'>
           Resume
           </a>
         </div>
