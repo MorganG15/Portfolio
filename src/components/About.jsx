@@ -5,7 +5,7 @@ const About = () => {
     <div
       name="about"
       id="about"
-      className="w-full bg-white text-white sm:pt-1/4"
+      className="w-full h-screen bg-white text-white sm:pt-1/4"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className=" py-16 rounded-md bg-blue-500 flex flex-col justify-center items-center w-5/6">

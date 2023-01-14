@@ -14,7 +14,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
   
   return (
-    <nav className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-black text-white z-20 mb-2'>
+    <toolbar className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-black text-white z-10'>
       <div>
         <h1 className=' font-thin text-2xl italic font-sansserif'>MG</h1>
       </div>
@@ -90,7 +90,7 @@ const Navbar = () => {
           </Link>
       </li>*/}
       </ul>
-    </nav>
+    </toolbar>
   );
 };
 export default Navbar;
