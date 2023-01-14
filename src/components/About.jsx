@@ -5,13 +5,13 @@ const About = () => {
     <div
       name="about"
       id="about"
-      className="w-full h-screen bg-GreenLt text-white sm:pt-1/4"
+      className="w-full h-screen bg-white text-white sm:pt-1/4"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className=" py-16 rounded-md bg-GreenDk flex flex-col justify-center items-center w-5/6">
+        <div className=" py-16 rounded-md bg-blue-500 flex flex-col justify-center items-center w-5/6">
           <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 mb-4">
             <div className="sm:text-right pb-8 pl-4">
-              <p className="text-4xl font-bold inline border-b-4 border-[#a3b899]">
+              <p className="text-4xl font-bold inline border-b-4 border-blue-300">
                 About
               </p>
             </div>
