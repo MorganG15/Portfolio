@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.97e64b60.css",
-    "main.js": "/Portfolio/static/js/main.6e3f6f03.js",
+    "main.js": "/Portfolio/static/js/main.cbfd9f1b.js",
+    "static/media/SAT Video.png": "/Portfolio/static/media/SAT Video.f761810a7c0509182625.png",
     "static/media/webPortfolio.png": "/Portfolio/static/media/webPortfolio.2013eb2732b7da7b0825.png",
     "static/media/me2.jpeg": "/Portfolio/static/media/me2.be127219bc68140c0339.jpeg",
     "static/media/weNote.png": "/Portfolio/static/media/weNote.8cb8d0b5e0b463b54611.png",
+    "static/media/BWA.png": "/Portfolio/static/media/BWA.40b95f8ff89faefaca9d.png",
     "static/media/Morgan Goodfellow Resume Jan 2023.pdf": "/Portfolio/static/media/Morgan Goodfellow Resume Jan 2023.b9dd47d25817e1682f33.pdf",
     "static/media/code2.png": "/Portfolio/static/media/code2.991831d0a626b3b8e8b3.png",
     "index.html": "/Portfolio/index.html",
     "main.97e64b60.css.map": "/Portfolio/static/css/main.97e64b60.css.map",
-    "main.6e3f6f03.js.map": "/Portfolio/static/js/main.6e3f6f03.js.map"
+    "main.cbfd9f1b.js.map": "/Portfolio/static/js/main.cbfd9f1b.js.map"
   },
   "entrypoints": [
     "static/css/main.97e64b60.css",
-    "static/js/main.6e3f6f03.js"
+    "static/js/main.cbfd9f1b.js"
   ]
 }
