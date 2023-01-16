@@ -2,6 +2,8 @@ import React from 'react';
 import code from '../assets/code2.png';
 import portfolio from '../assets/webPortfolio.png';
 import weNote from '../assets/weNote.png'
+import bwa from '../assets/BWA.png';
+import sat from '../assets/SAT Video.png'
 
 const Works = () => {
   return (
@@ -38,7 +40,28 @@ const Works = () => {
               />
             </a>
           </div>
-          
+          <div className="basis-1/3 flex-1 hover:scale-105 duration-500">
+            <a >
+              <img 
+              className="rounded-lg object-cover shadow-lg shadow-gray-400 cursor-pointer"
+              width={"100%"} 
+              height={"100%"}
+              layout="responsive"
+              src={bwa}
+              />
+            </a>
+          </div>
+          <div className="basis-1/3 flex-1 hover:scale-105 duration-500">
+            <a href="https://youtu.be/idEL_ZQhO-0" target="_blank" rel="noopener noreferrer">
+              <img 
+              className="rounded-lg object-cover shadow-lg shadow-gray-400 cursor-pointer"
+              width={"100%"} 
+              height={"100%"}
+              layout="responsive"
+              src={sat}
+              />
+            </a>
+          </div>
         </div>
       </div>
     </section>
