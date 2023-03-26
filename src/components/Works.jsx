@@ -7,7 +7,7 @@ import sat from '../assets/SAT Video.png'
 
 const Works = () => {
   return (
-    <section name='projects' className='w-full py-10 bg-white'>
+    <div name='projects' className='w-full py-40 bg-white'>
       <div className='max-w-[1400px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8 flex flex-col justify-center items-center'>
           <h3 className=' text-4xl text-black font-bold inline border-b-4 border-blue-500'>
@@ -64,7 +64,7 @@ const Works = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 export default Works;
